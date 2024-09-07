@@ -1,5 +1,5 @@
 {
-  "name": "MASTER-MD",
+  "name": "TOpPLUG-MD",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -12,12 +12,12 @@
   "keywords": [
     "bot",
     "Baileys",
-    "master-Md",
+    "TOpPLUG-Md",
     "whatsapp",
     "whatsapp-bot",
-    "master"
+    "TOpPLUG"
   ],
-  "author": "sahan",
+  "author": "TOpPLUG",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
