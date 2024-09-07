@@ -1,18 +1,17 @@
 //═════════════════════════════════════════════════════════════════════════════════════════════════════════════════//
-//                                                                                                                 //
-//                                             W H A T S A P P _ U S E R _ BOT                                     //
-//                                                                                                                 //                                               //
-//                                                                                                                 //
-//            ███╗░░░███╗░░█████╗░░███████╗░████████░░███████╗░████████╗░░░░░░░░░░░░███╗░░░███╗░░██████╗░░░░░      //   
-//            ████╗░████║░██╔══██╗░██╔════╝░╚══██║══╝░██║════╝░██╔═══██╗░░░░░░░░░░░░████╗ ████║░░██╔══██╗░░░░      //
-//            ██╔████╔██║░███████║░███████╗░░░░██║░░░░███████║░███████╔╝░░███████░░░██╔████╔██║░░██║░░██║░░░░      // 
-//            ██║░██║╚██║░██╔══██║░╚════██║░░░░██║░░░░██║════╝░██╔═══██╗░░╚══════╝░░██║░██░░██║░░██║░░██║░░░░      //
-//            ██║░╚═╝░██║░██║░░██║░███████║░░░░██║░░░░███████║░██║░░░░██░░░░░░░░░░░░██║░╚═╝░██║░░██████╔╝░░░░      //
-//            ╚═╝░░░░░╚═╝░╚═╝░░╚═╝░╚══════╝░░░░╚═╝░░░░░╚══════╝░╚═╝░░░░╚═╝░░░░░░░░░░░╚═╝░░░░░╚═╝░░╚═════╝░░░░      //
-//                                                                                                                 //
-//                                 C R E A T E D _ B Y _ M R _ S A H A N _ O F C _ S L _ R G                       //  
-//                                                                                                                 //
-//                                                                                                                 //
+
+88888888888 .d88888b.           8888888b.  888     888     888  .d8888b.         888b     d888 8888888b.  
+    888    d88P" "Y88b          888   Y88b 888     888     888 d88P  Y88b        8888b   d8888 888  "Y88b 
+    888    888     888          888    888 888     888     888 888    888        88888b.d88888 888    888 
+    888    888     888 88888b.  888   d88P 888     888     888 888               888Y88888P888 888    888 
+    888    888     888 888 "88b 8888888P"  888     888     888 888  88888        888 Y888P 888 888    888 
+    888    888     888 888  888 888        888     888     888 888    888 888888 888  Y8P  888 888    888 
+    888    Y88b. .d88P 888 d88P 888        888     Y88b. .d88P Y88b  d88P        888   "   888 888  .d88P 
+    888     "Y88888P"  88888P"  888        88888888 "Y88888P"   "Y8888P88        888       888 8888888P"  
+                       888                                                                                
+                       888                                                                                
+                       888                                                                                
+    //
 //═════════════════════════════════════════════════════════════════════════════════════════════════════════════════//
 const fs = require('fs-extra');
 const { Sequelize } = require('sequelize');
@@ -25,13 +24,13 @@ const DATABASE_URL = process.env.DATABASE_URL === undefined
     : process.env.DATABASE_URL;
 module.exports = { session: process.env.SESSION_ID || 'zokk',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "Sahan Maduwantha",
-    NUMERO_OWNER : process.env.OWNER_NUMBER || "94720797915",              
+    OWNER_NAME: process.env.OWNER_NAME || "TOpPLUG PIRATES",
+    NUMERO_OWNER : process.env.OWNER_NUMBER || "254112767921",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "oui",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'non',
-    BOT : process.env.BOT_NAME || 'MASTER-MD',
+    BOT : process.env.BOT_NAME || 'TOpPLUG-MD',
     OPENAI_API_KEY : process.env.OPENAI_API_KEY || 'sk-proj-YfcNzdUKxlPr4yOkKYRQT3BlbkFJB0dbLsM9gWNTh52M3hAw',
-    URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/74b612f51b7a5750191af.jpg',
+    URL : process.env.BOT_MENU_LINKS || 'https://i.imgur.com/Gw7jtD0.jpeg',
     MODE: process.env.PUBLIC_MODE || "no",
     PM_PERMIT: process.env.PM_PERMIT || 'no',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
